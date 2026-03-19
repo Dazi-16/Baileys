@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:qwerty-xcv/Baileys"
+  "@whiskeysockets/baileys": "github:Dazi-16/Baileys"
 }
 ```
 ## Import
@@ -113,4 +113,5 @@ await client.relayMessage(m.chat, {
   }
 })
 ```
+Modifed By DaziNotFound
 Follow https://t.me/TenkaWaBails kalau mau liat type message yg lain :v
