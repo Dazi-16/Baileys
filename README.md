@@ -1,6 +1,6 @@
 # Modified Whatsapp-API
 <p align='center'>
-  <img src="https://files.catbox.moe/ua0ejo.png" width="172">
+  <img src="https://files.catbox.moe/ua0ejo.png">
 </p>
 
 --- 
