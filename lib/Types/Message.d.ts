@@ -171,6 +171,16 @@ export type AnyMessageContent = AnyRegularMessageContent | {
     delete: WAMessageKey;
 } | {
     disappearingMessagesInChat: boolean | number;
+} | {
+    pin: WAMessageKey | {
+        key: WAMessageKey;
+        time?: number;
+    };
+    time?: number;
+} | {
+    unpin: WAMessageKey | {
+        key: WAMessageKey;
+    };
 };
 export type GroupMetadataParticipants = Pick<GroupMetadata, 'participants'>;
 type MinimalRelayOptions = {
